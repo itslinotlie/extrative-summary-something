@@ -1,0 +1,4 @@
+# just to err on the side of caution, ignoring these files
+.git
+.vscode
+/venv
