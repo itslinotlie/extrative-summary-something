@@ -1,4 +1,8 @@
 # just to err on the side of caution, ignoring these files
+
+# this file can become massive + its unenecessary when testing the program
 .git
+# my settings.json isn't that important
 .vscode
+# heard its bad practice to put venv on git, so not including it for docker either
 /venv

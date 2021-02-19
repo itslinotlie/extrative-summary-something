@@ -1,11 +1,11 @@
-# I think I finally understand why people always download a linux image ->
-# because then you can "use the terminal" with the commands and what not.
+# I think I finally understand why people always download a linux base layer ->
+# because then you have the terminal and you can use everyday commands.
 # Just need to also download python + pip to download packages
 # and run python <file name> and then you'll be able
 # to run the python script. Only took a couple hours for this realization -.-
 FROM debian:latest
 
-# apt-get update downlaods downloads+updates packages
+# apt-get update downloads+updates packages
 # the -y flag in apt-get install forces the answer "yes" to the question
 # "are you sure you want to install this package"
 # downloading python + pip because this is a python project. Took a while to realize
